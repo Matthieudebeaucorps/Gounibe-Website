@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <!-- Add the link to Font Awesome's library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      @font-face {
+        font-family: 'Creat';
+        src: url('Creat.otf');
+      }
+      
+      h1 {
+        font-family: 'Roboto Slab', serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #F4DFA6;
+        margin: 0;
+        position: absolute;
+        top: 6px;
+        left: 20px;
+        z-index: 2;
+      }
+      
+      body {
+        background-color: #353744;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        position: relative;
+      }
+      
+      .links {
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        color: #F4DFA6;
+        text-align: right;
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        z-index: 2;
+      }
+      
+      .links a {
+        color: #F4DFA6;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+      
+      .image-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      
+      .image-container img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        opacity: 0.3; /* 30% more transparent */
+        z-index: -1; /* Update this line to set the z-index */
+      }
+      
+      .overlay-text {
+        font-family: 'Creat', sans-serif;
+        font-size: 60px;
+        color: #F4DFA6;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+      
+      .contact {
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #F4DFA6;
+        text-align: center;
+        position: absolute;
+        bottom: 1.5%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+      
+      .trademark {
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        color: #F4DFA6;
+        position: absolute;
+        bottom: 1.5%;
+        right: 20px;
+      }
+
+       /* Add the following new class for the Instagram icon */
+    .instagram-icon {
+      font-size: 24px;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      color: #F4DFA6;
+    }
+      .contact-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-form {
+  font-family: 'Roboto Slab', serif;
+  max-width: 400px;
+  padding: 100px;
+  background-color: #F4DFA6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-form button {
+  background-color: #353744;
+  color: #F4DFA6;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #F4DFA6;
+  color: #353744;
+}
+
+  </style>
+</head>
+<body>
+  <a href="index4000.html">
+    <h1>Gounibe</h1>
+  </a>
+  
+  <div class="links">
+    <a href="about.html">About</a>&nbsp;|&nbsp;
+    <a href="clothes.html">Clothes</a>&nbsp;|&nbsp;
+    <a href="paint.html">Paint</a>&nbsp;|&nbsp;
+    <a href="shop.html">Shop</a>&nbsp;|&nbsp;
+    <a href="contact.html">Contact</a>
+  </div>
+  
+  <div class="image-container">
+    <img src="contact.jpg" alt="Image">
+    <div class="overlay-text">
+      <!-- Overlay Text Here -->
+    </div>
+
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form method="post" action="send_email.php">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+    
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <a class="contact"> ©Gounibe 2023</a>
+  
+    <!-- Add the following new div for the Instagram icon, replace 'your_instagram_link' with your actual Instagram link -->
+    <a href="https://www.instagram.com/gounibe_/" class="instagram-icon">
+      <i class="fa fa-instagram"></i>
+    </a>
+  
+  
+  <a href="contact.html
+
+
+
+
+
